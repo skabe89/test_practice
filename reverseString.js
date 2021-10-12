@@ -1,6 +1,9 @@
 exports.reverseString = (string) => {
 
-  
+  return reverse(string)
 
-  return string.split('').reverse().join('')
+}
+
+const reverse = (arg) => {
+  return arg.split('').reverse().join('')
 }
