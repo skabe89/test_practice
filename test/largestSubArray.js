@@ -1,10 +1,8 @@
-const { expect } = require('chai')
+const expect = require('chai').expect
+const validator = require('../largestSubArray')
 
-expect = require('chai').expect
-const validator = ('../largestSubArray')
-
-describe('#largestSubarray()', () => {
+describe('#largestSubArray()', () => {
   it('Should return Hello', () => {
-    expect(validator.longestSubArray().to.equal('Hello'))
+    expect(validator.largestSubArray('Hello')).to.equal('Hello')
   })
 })
