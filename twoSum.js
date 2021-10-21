@@ -1,3 +1,3 @@
-exports.twoSum = () => {
-  return 'Hello'
+exports.twoSum = (str) => {
+  return str
 }
