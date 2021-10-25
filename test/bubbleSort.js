@@ -6,12 +6,12 @@ const arr3 = [34,50,24,43,12]
 
 describe('#bubbleSort()', () => {
   it('should sort array ascending order', () => {
-    expect(validator.bubbleSort(arr1)).to.equal([1,2,3,4,5])
+    expect(JSON.stringify(validator.bubbleSort(arr1))).to.equal(JSON.stringify([1,2,3,4,5]))
   })
   it('should sort array ascending order', () => {
-    expect(validator.bubbleSort(arr2)).to.equal([1,2,3,4,5])
+    expect(JSON.stringify(validator.bubbleSort(arr2))).to.equal(JSON.stringify([1,2,3,4,5]))
   })
   it('should sort array ascending order', () => {
-    expect(validator.bubbleSort(arr3)).to.equal([12,24,34,43,50])
+    expect(JSON.stringify(validator.bubbleSort(arr3))).to.equal(JSON.stringify([12,24,34,43,50]))
   })
 })
