@@ -6,12 +6,12 @@ const arr3 = [34,50,24,43,12]
 
 describe('#mergeSort()', () => {
   it('should sort array ascending order', () => {
-    expect(JSON.stringify(validator.mergeSort(arr1))).to.equal(JSON.stringify([1,2,3,4,5]))
+    expect(JSON.stringify(validator.sort(arr1))).to.equal(JSON.stringify([1,2,3,4,5]))
   })
   it('should sort array ascending order', () => {
-    expect(JSON.stringify(validator.mergeSort(arr2))).to.equal(JSON.stringify([1,2,3,4,5]))
+    expect(JSON.stringify(validator.sort(arr2))).to.equal(JSON.stringify([1,2,3,4,5]))
   })
   it('should sort array ascending order', () => {
-    expect(JSON.stringify(validator.mergeSort(arr3))).to.equal(JSON.stringify([12,24,34,43,50]))
+    expect(JSON.stringify(validator.sort(arr3))).to.equal(JSON.stringify([12,24,34,43,50]))
   })
 })
