@@ -57,3 +57,5 @@ bt.insert(23)
 bt.insert(3)
 bt.insert(44)
 bt.insert(27)
+
+module.exports = BinaryTree
